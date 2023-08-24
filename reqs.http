@@ -1,0 +1,22 @@
+@server = http://localhost:8080
+GET {{server}}/api/cursos
+####
+POST {{server}}/api/cursos
+Content-Type: application/json
+
+{"nombre": "Programacion III", "creditos": 4}
+#####
+GET {{server}}/api/carreras
+####
+POST {{server}}/api/carreras
+Content-Type: application/json
+
+{"nombre": "Veterinaria"}
+#####
+GET {{server}}/api/aulas
+####
+POST {{server}}/api/aulas
+Content-Type: application/json
+
+{"turno": "MAÑANA"}
+###
